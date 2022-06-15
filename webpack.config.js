@@ -13,7 +13,7 @@ const config = {
   },
   output: {
     path: path.join(__dirname + "/dist"),
-    filename: "main.bundle.js"
+    filename: "[name].bundle.js"
   },
   module: {
     rules: [
